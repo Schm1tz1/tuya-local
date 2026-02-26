@@ -171,3 +171,21 @@ entities:
       - id: 115
         type: boolean
         name: button
+  - name: Reset
+    entity: button
+    translation_key: factory_reset
+    category: config
+    hidden: true
+    dps:
+      - id: 115
+        type: boolean
+        name: button
+  - name: Week Program Mode
+    translation_key: week_program_mode
+    category: diagnostic
+    entity: sensor
+    class: temperature
+    dps:
+      - id: 23
+        type: bitfield
+        name: sensor

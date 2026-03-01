@@ -122,15 +122,15 @@ entities:
         type: string
         mapping:
           - dps_val: 0
-            value: Low
+            value: 0
           - dps_val: 1
-            value: Average
+            value: 63
           - dps_val: 2
-            value: Above avg
+            value: 127
           - dps_val: 3
-            value: Comfort
+            value: 191
           - dps_val: 4
-            value: High
+            value: 255
   - name: Surface Temperature
     class: temperature
     dps:
